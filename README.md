@@ -1,3 +1,7 @@
+###Gammashine💛
+##GAM Gen 2
+#0.4.5v
+
 ❗This library is of an amateur level and is made for myself and for my needs, but I openly share my work and maybe someone will like my concept of working with video games
 
 💛 Feline library for Unity. GAM - Modular system architecture and many other features 
