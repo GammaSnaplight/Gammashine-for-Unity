@@ -24,7 +24,7 @@ What does it include?
 5) Controllable - Is the second half of the basis for building projects on GAM. This is an enum, but with the help of their processing, we can specify the state and synchronize data "at our fingertips" bypassing a more crude way of synchronizing data (although this is not possible everywhere at the moment).
 6) Origamma - this type of classes is such a classic representation of them, where the whole concept of modules, data and systems are combined into one whole. Consider this as your own evolution of systems that have fixed functionality.
 
-❗Gamemashine has detailed XML documentation in order not to look into third-party resources.
+❗Gammashine has detailed XML documentation in order not to look into third-party resources.
 
 ⭐ The library not only has a foundation for building systems, but also ready-made data, modules and masterminds. For example, it has an extensive set of Origamma, which have fixed functionality for various jobs. For example:
 
