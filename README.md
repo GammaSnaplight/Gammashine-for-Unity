@@ -1,9 +1,9 @@
-# Gammashine💛 (0.4.5v)
-##  GAM Gen2
+# Gammashine💛 (0.5.2v)
+##  GAMGen3 in development
 
-### [🟡🟡🟡⚫⚫⚫⚫⚫]% - Before the release of 1.0.0v  
+### [🟡🟡🟡🟡⚫⚫⚫⚫]% - Before the release of 1.0.0v  
 ### [🟡🟡⚫⚫⚫⚫⚫⚫]% - Before the release of GAMGen3  
-### [🟡🟡⚫⚫⚫⚫⚫⚫]% - XML documentation    
+### [🟡🟡🟡⚫⚫⚫⚫⚫]% - XML documentation    
 
 ❗This library is of an amateur level and is made for myself and for my needs, but I openly share my work and maybe someone will like my concept of working with video games
 
@@ -11,7 +11,7 @@
 
 What does it include?
 
-⭐) GAM Gen2 (Gen 3 in development) - Gamma architecture modular. The basic concept consists of the fact that everything is based on independent modules with wide functionality and consists of 5 pillars for building the entire project.
+⭐) GAMGen2 (Gen3 in development) - Gamma architecture modular. The basic concept consists of the fact that everything is based on independent modules with wide functionality and consists of 5 pillars for building the entire project.
 
 0) RulecoreSupremind - It is essentially a regular system (mastermind), but it is a bit offshoot and allows you to play other systems. It also automatically allows you to save a little bit of performance due to the only working MonoBehaviour in the project. Although it should be noted that he is not the only MonoBehaviour by himself.
 1) Data - GAM uses the concept that data goes separately and can be manipulated and synchronized between different modules and systems using ready-made data for this. There is also a clear separation of what data is being done:
