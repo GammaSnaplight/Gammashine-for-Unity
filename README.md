@@ -1,8 +1,8 @@
 # Gammashine💛 (0.4.5v)
-## GAM Gen2
+##  GAM Gen2
 
 ### [🟡🟡🟡⚫⚫⚫⚫⚫]% - Before the release of 1.0.0v  
-### [🟡⚫⚫⚫⚫⚫⚫⚫]% - Before the release of GAM Gen 3  
+### [🟡🟡⚫⚫⚫⚫⚫⚫]% - Before the release of GAMGen3  
 ### [🟡🟡⚫⚫⚫⚫⚫⚫]% - XML documentation    
 
 ❗This library is of an amateur level and is made for myself and for my needs, but I openly share my work and maybe someone will like my concept of working with video games

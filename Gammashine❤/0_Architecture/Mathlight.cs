@@ -255,48 +255,6 @@ namespace Snaplight
         public static Vector3 Explicit(float value)
             => new(value, value, value);
 
-
-
-        //    public static float MultipleInterpolation(float[] variants, float[] amount, float mix)
-        //    {
-        //        if (variants.Length != amount.Length || variants.Length < 2) return 0f;
-
-        //        for (int i = 1; i < amount.Length; i++)
-        //        {
-        //            if (mix < amount[i])
-        //            {
-        //                float normalized = Mathf.InverseLerp(amount[i - 1], amount[i], mix);
-        //                return Mathf.Lerp(variants[i - 1], variants[i], normalized);
-        //            }
-        //        }
-
-        //        return 0f;
-        //    }
-
-        //    public static float InterpolateLimitation(float a, float b, float amount)
-        //        => MinMax(Interpolation(a, b, amount), a, b);
-
-        //    public static float InterpolateLimitation(float a, float b, float amount, ref bool isFinish)
-        //    {
-        //        float r = MinMax(Interpolation(a, b, amount), a, b);
-
-        //        isFinish = a >= b;
-
-        //        return r;
-        //    }
-
-        //    public static int Negate(int value)
-        //        => -value;
-
-        //    public static float Negate(float value)
-        //        => -value;
-
-        //    public static Vector2 Negate(Vector2 value)
-        //        => -value;
-
-        //    public static Vector3 Negate(Vector3 value)
-        //        => -value;
-
         //    public static float ParabolaGen2(float t, float limit)
         //    {
         //        float tVertex = (0 + limit) / 2F;
