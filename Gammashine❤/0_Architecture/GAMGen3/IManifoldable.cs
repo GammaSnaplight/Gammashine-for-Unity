@@ -3,12 +3,24 @@ using System.Collections.Generic;
 
 namespace Snaplight.Gen3
 { 
-    public interface IManifoldable<T, K> : IControllable<K>
+    public interface IManifoldableHeartiness<T, K>
+        where T : IModulable
+        where K : Enum
+    { }
+
+    public interface IManifoldable<T, K> : IManifoldableHeartiness<T, K>
         where T : IModulable
         where K : Enum
     {
-        public IDictionary<string, T> Modules { get; set; }
+        public IList<T> Modules { get; set; }
 
-        public void Changeover(T[] modules, K controllable);
+        public void Changeover(K controllable, params T[] modules);
     }
+
+    public interface IUniversalManifoldable<K> : IManifoldable<IModulable, K> 
+        where K : Enum
+    { }
+
+    public interface IStandardManifoldable : IUniversalManifoldable<ManifoldControllable>
+    { }
 }

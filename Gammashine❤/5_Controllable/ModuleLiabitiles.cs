@@ -1,6 +1,6 @@
-﻿namespace Snaplight.Controllable
+﻿namespace Snaplight
 {
-    public enum ModuleLiabilities
+    public enum ModuleLiabilities : byte
     {
         Underlow,
         Regular,

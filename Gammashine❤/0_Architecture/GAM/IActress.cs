@@ -1,7 +1,6 @@
 ﻿namespace Snaplight
 {
     public interface IActress<T, K>
-        where K : IFoldables<K>
     {
         public T Act(K data);
     }

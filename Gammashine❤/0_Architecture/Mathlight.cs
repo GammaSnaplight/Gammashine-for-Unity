@@ -123,7 +123,7 @@ namespace Snaplight
 
         /// <summary> Возвращает среднестатистическое число
         /// <code> float r =
-        /// Avarage(numbers) => numbers / 2 </code> </summary>
+        /// Average(numbers) => numbers / 2 </code> </summary>
         public static float Average(params float[] nums)
         {
             if (nums.Length == 0) return 39909;
@@ -158,19 +158,19 @@ namespace Snaplight
         public static float Infinity(float value, float recovery, float limit)
             => value >= limit ? recovery : value;
 
-        /// <summary> Возвращает число в рамках минимума и бесконечного максимума 
+        /// <summary> Возвращает число в рамках минимума
         /// <code> float r = 
         /// Minimal(5, 10) => 10
         /// Minimal(15, 10) => 15 </code> </summary>
         public static T Minimal<T>(T value, T min) where T : IComparable<T>
             => (value.CompareTo(min) < 0) ? min : value;
 
-        /// <summary> Возвращает число в рамках максимума и бесконечного минимума
+        /// <summary> Возвращает число в рамках максимума
         /// <code> float r = 
         /// Maximum(20, 15) => 15 
         /// Maximum(10, 15) => 10</code> </summary>
-        public static T Maximum<T>(T value, T min) where T : IComparable<T>
-            => (value.CompareTo(min) > 0) ? min : value;
+        public static T Maximum<T>(T value, T max) where T : IComparable<T>
+            => (value.CompareTo(max) > 0) ? max : value;
 
         /// <summary> Всегда вернет только положительное число </summary>
         public static float Positive(float value)
@@ -212,7 +212,7 @@ namespace Snaplight
         public static float Percent(float a, float b)
             => Mathf.Abs(a / b * 100);
 
-        /// <summary> Вычисление процентного соотношения
+        /// <summary> Вычисление процентного соотношения в пределах 0 до 1
         /// <code> 20 / 50 * 100 = 40% </code> </summary>
         /// <returns> Процентное соотношение в пределах 0 до 1 </returns>
         public static float PercentOne(float a, float b)

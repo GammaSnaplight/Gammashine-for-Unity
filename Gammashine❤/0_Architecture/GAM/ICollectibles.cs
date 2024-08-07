@@ -4,4 +4,6 @@ namespace Snaplight
     {
         public void Collection();
     }
+
+    public interface IAutomateCollectibles : ICollectibles { }
 }

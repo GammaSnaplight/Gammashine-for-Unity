@@ -2,7 +2,7 @@
 {
     public interface IFoldables<T> { }
 
-    public interface IUniversalFoldables<T> 
+    public interface IUniversalFoldables<T> : IFoldables<T>
     {
         public T Fold { get; set; }
     }

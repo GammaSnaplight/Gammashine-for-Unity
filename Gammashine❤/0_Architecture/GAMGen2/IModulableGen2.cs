@@ -2,5 +2,5 @@
 {
     public interface IUniversalModulable : IModulable, IUndertaking, ILiabilities { }
 
-    public interface IPlayableModulable : IRegularModulable, IUndertaking, ILiabilities { }
+    public interface IPlayableModulable : IUniversalModulable, IPlayable, IUndertaking, ILiabilities { }
 }
