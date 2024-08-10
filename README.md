@@ -45,7 +45,7 @@
   <summary>🌎 - West</summary>
 
 💛 The cat library in conjunction with the GAM system is a modular architecture of Gamma.
-- This library is made by an amateur for his own needs and his own ideas. The library is open to anyone, if you like my video game development concept.
+- This library is made by an amateur for his own needs and his own ideas. The library is open to anyone, if you like my video game development concept❗❗❗
 
 Understanding the concept:
 - Modularity - Every time I try to put more emphasis on the originality of all systems, since everything consists of modules
@@ -78,4 +78,7 @@ Understanding the concept:
 
 <details>
   <summary>🌏 - 東</summary>
+
+ﾂづ慊つｷﾂ。
+
 </details>
