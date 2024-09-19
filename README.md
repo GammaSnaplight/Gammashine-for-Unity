@@ -1,7 +1,7 @@
-# Gammashine💛 (0.5.2v)
+# Gammashine💛 (52v)
 ##  GAMGen3 in development
 
-### [🟡🟡🟡🟡⚫⚫⚫⚫]% - Before the release of 1.0.0v  
+### [🟡🟡🟡🟡⚫⚫⚫⚫]% - Before the release of 100v  
 ### [🟡🟡🟡⚫⚫⚫⚫⚫]% - Before the release of GAMGen3  
 ### [🟡🟡⚫⚫⚫⚫⚫⚫]% - XML documentation    
 
