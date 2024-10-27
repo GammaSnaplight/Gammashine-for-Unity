@@ -24,15 +24,19 @@ namespace Snaplight.Modules
 
         public void Collection()
         {
+            //---
+            Changeover.Undertaking = ModuleUndertaking.Playback;
+            Changeover.Crushload = CrushloadControllable.Non;
             Changeover.Updating = UpdateControllable.Update;
-            Changeover.Undertaking = ModuleUndertaking.Lightweight;
+            Changeover.Liabilities = ModuleLiabilities.Regular;
 
+            //---
             Fold.FPSArray = new byte[Fold.FramerateAverageLimitation];
         }
 
         public void Playback()
         {
-            //===
+            //---
             //Fold.FPS = ((byte)(1 / Time.unscaledDeltaTime));
 
             //Fold.FPSAverage = Mathlight.Average(Fold.FPSArray);
@@ -48,19 +52,19 @@ namespace Snaplight.Modules
 
             //if (Fold.IndexArray > Fold.FramerateAverageLimitation) Fold.IndexArray = 0;
 
-            ////===
+            ////---
             //FramerateInformation.FPS = Fold.FPS;
         }
 
         public void Shutdown()
         {
-            //===
+            //---
             Fold.IndexArray = 0;
         }
 
         public void Lightback()
         {
-            //===
+            //---
             FramerateInformation.FPS = ((byte)(1 / Time.unscaledDeltaTime));
         }
 

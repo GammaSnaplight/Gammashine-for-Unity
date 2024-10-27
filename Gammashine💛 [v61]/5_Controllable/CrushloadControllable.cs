@@ -2,6 +2,8 @@
 {
     public enum CrushloadControllable : byte
     {
+        Non,
+
         HighlyPerformance,
         Underload,
         Midload,

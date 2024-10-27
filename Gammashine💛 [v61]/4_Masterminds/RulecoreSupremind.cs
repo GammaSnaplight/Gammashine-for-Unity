@@ -23,7 +23,6 @@ namespace Snaplight
         // Variable
         private UpdateControllable _updating;
 
-
         public void Collection()
         {
             Rulecorector.RulecorePlayback.Masterminds = Automate.Masterminds<IMasterable<IManifoldable<IModulable>>>(Rulecorector.Fold.Masterminds);

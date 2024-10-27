@@ -1,6 +1,5 @@
 ﻿namespace Snaplight { }
 
-namespace Snaplight.Gen2 { }
 namespace Snaplight.Gen3 { }
 
 namespace Snaplight.Folds { }

@@ -74,7 +74,7 @@ namespace Snaplight.Origamma
             Controllable = TimedataControllable.Waiting;
         }
 
-        public  void Playback()
+        public void Playback()
         {
             if (Controllable == TimedataControllable.Shutdown) return;
 
